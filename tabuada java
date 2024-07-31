@@ -1,0 +1,24 @@
+package aula12;
+//aula no senai dia 31-07
+import java.util.Scanner;
+
+public class UsandoWhile2 {
+// tabuada java
+	public static void main(String[] args) {
+		int cont = 0;
+		int numero;
+		int total = 0;
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("digite um valor");
+		numero = ler.nextInt();
+		
+		while(cont<=10) {
+			 total = numero * cont;
+			 System.out.println(numero+"X"+cont+"="+total);
+			 cont++;
+		}
+
+	}
+
+}
